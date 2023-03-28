@@ -14,6 +14,16 @@
 		B9F6E85E29D2A5BF00A82665 /* Dogs_FactsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E85D29D2A5BF00A82665 /* Dogs_FactsTests.swift */; };
 		B9F6E86829D2A5BF00A82665 /* Dogs_FactsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E86729D2A5BF00A82665 /* Dogs_FactsUITests.swift */; };
 		B9F6E86A29D2A5BF00A82665 /* Dogs_FactsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E86929D2A5BF00A82665 /* Dogs_FactsUITestsLaunchTests.swift */; };
+		B9F6E87B29D2A77200A82665 /* DogFactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E87A29D2A77200A82665 /* DogFactData.swift */; };
+		B9F6E87D29D2A79400A82665 /* DogFactDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E87C29D2A79400A82665 /* DogFactDTO.swift */; };
+		B9F6E88129D2AA8A00A82665 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88029D2AA8A00A82665 /* Environment.swift */; };
+		B9F6E88329D2AAA300A82665 /* DogFactsEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88229D2AAA300A82665 /* DogFactsEnvironment.swift */; };
+		B9F6E88529D2AAC000A82665 /* DogFactsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88429D2AAC000A82665 /* DogFactsAPI.swift */; };
+		B9F6E88729D2AB5C00A82665 /* MappingExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88629D2AB5C00A82665 /* MappingExtension.swift */; };
+		B9F6E88929D2ABAA00A82665 /* EnvironmentInstancesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88829D2ABAA00A82665 /* EnvironmentInstancesExtension.swift */; };
+		B9F6E88C29D2AFF500A82665 /* DogFactError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88B29D2AFF500A82665 /* DogFactError.swift */; };
+		B9F6E88E29D2B02B00A82665 /* DogFactsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88D29D2B02B00A82665 /* DogFactsRepository.swift */; };
+		B9F6E89029D2B04A00A82665 /* DogFactsRemoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F6E88F29D2B04A00A82665 /* DogFactsRemoteRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +54,16 @@
 		B9F6E86329D2A5BF00A82665 /* Dogs FactsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Dogs FactsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9F6E86729D2A5BF00A82665 /* Dogs_FactsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogs_FactsUITests.swift; sourceTree = "<group>"; };
 		B9F6E86929D2A5BF00A82665 /* Dogs_FactsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dogs_FactsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B9F6E87A29D2A77200A82665 /* DogFactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactData.swift; sourceTree = "<group>"; };
+		B9F6E87C29D2A79400A82665 /* DogFactDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactDTO.swift; sourceTree = "<group>"; };
+		B9F6E88029D2AA8A00A82665 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		B9F6E88229D2AAA300A82665 /* DogFactsEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactsEnvironment.swift; sourceTree = "<group>"; };
+		B9F6E88429D2AAC000A82665 /* DogFactsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactsAPI.swift; sourceTree = "<group>"; };
+		B9F6E88629D2AB5C00A82665 /* MappingExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappingExtension.swift; sourceTree = "<group>"; };
+		B9F6E88829D2ABAA00A82665 /* EnvironmentInstancesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentInstancesExtension.swift; sourceTree = "<group>"; };
+		B9F6E88B29D2AFF500A82665 /* DogFactError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactError.swift; sourceTree = "<group>"; };
+		B9F6E88D29D2B02B00A82665 /* DogFactsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactsRepository.swift; sourceTree = "<group>"; };
+		B9F6E88F29D2B04A00A82665 /* DogFactsRemoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogFactsRemoteRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +114,9 @@
 		B9F6E84B29D2A5BE00A82665 /* Dogs Facts */ = {
 			isa = PBXGroup;
 			children = (
-				B9F6E84C29D2A5BE00A82665 /* Dogs_FactsApp.swift */,
-				B9F6E84E29D2A5BE00A82665 /* ContentView.swift */,
+				B9F6E87829D2A6E600A82665 /* entities */,
+				B9F6E87729D2A65900A82665 /* domain */,
+				B9F6E87629D2A63D00A82665 /* presentation */,
 				B9F6E85029D2A5BF00A82665 /* Assets.xcassets */,
 				B9F6E85229D2A5BF00A82665 /* Preview Content */,
 			);
@@ -125,6 +146,71 @@
 				B9F6E86929D2A5BF00A82665 /* Dogs_FactsUITestsLaunchTests.swift */,
 			);
 			path = "Dogs FactsUITests";
+			sourceTree = "<group>";
+		};
+		B9F6E87629D2A63D00A82665 /* presentation */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E84E29D2A5BE00A82665 /* ContentView.swift */,
+				B9F6E84C29D2A5BE00A82665 /* Dogs_FactsApp.swift */,
+			);
+			path = presentation;
+			sourceTree = "<group>";
+		};
+		B9F6E87729D2A65900A82665 /* domain */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E88A29D2AFDF00A82665 /* model */,
+				B9F6E87F29D2AA7B00A82665 /* api */,
+				B9F6E87E29D2A7BF00A82665 /* repositories */,
+			);
+			path = domain;
+			sourceTree = "<group>";
+		};
+		B9F6E87829D2A6E600A82665 /* entities */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E87929D2A75B00A82665 /* model */,
+			);
+			name = entities;
+			sourceTree = "<group>";
+		};
+		B9F6E87929D2A75B00A82665 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E87A29D2A77200A82665 /* DogFactData.swift */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		B9F6E87E29D2A7BF00A82665 /* repositories */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E88D29D2B02B00A82665 /* DogFactsRepository.swift */,
+				B9F6E88F29D2B04A00A82665 /* DogFactsRemoteRepository.swift */,
+			);
+			path = repositories;
+			sourceTree = "<group>";
+		};
+		B9F6E87F29D2AA7B00A82665 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E88029D2AA8A00A82665 /* Environment.swift */,
+				B9F6E88229D2AAA300A82665 /* DogFactsEnvironment.swift */,
+				B9F6E88429D2AAC000A82665 /* DogFactsAPI.swift */,
+				B9F6E88629D2AB5C00A82665 /* MappingExtension.swift */,
+				B9F6E88829D2ABAA00A82665 /* EnvironmentInstancesExtension.swift */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
+		B9F6E88A29D2AFDF00A82665 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				B9F6E87C29D2A79400A82665 /* DogFactDTO.swift */,
+				B9F6E88B29D2AFF500A82665 /* DogFactError.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +343,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9F6E89029D2B04A00A82665 /* DogFactsRemoteRepository.swift in Sources */,
+				B9F6E88529D2AAC000A82665 /* DogFactsAPI.swift in Sources */,
+				B9F6E88929D2ABAA00A82665 /* EnvironmentInstancesExtension.swift in Sources */,
 				B9F6E84F29D2A5BE00A82665 /* ContentView.swift in Sources */,
+				B9F6E88E29D2B02B00A82665 /* DogFactsRepository.swift in Sources */,
+				B9F6E88729D2AB5C00A82665 /* MappingExtension.swift in Sources */,
+				B9F6E87B29D2A77200A82665 /* DogFactData.swift in Sources */,
+				B9F6E88329D2AAA300A82665 /* DogFactsEnvironment.swift in Sources */,
+				B9F6E87D29D2A79400A82665 /* DogFactDTO.swift in Sources */,
 				B9F6E84D29D2A5BE00A82665 /* Dogs_FactsApp.swift in Sources */,
+				B9F6E88129D2AA8A00A82665 /* Environment.swift in Sources */,
+				B9F6E88C29D2AFF500A82665 /* DogFactError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
